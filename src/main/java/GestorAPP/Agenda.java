@@ -24,10 +24,6 @@ public class Agenda {
         contadorContactos=0;
     }
 
-    public Contacto[] getContactos() {
-        return contactos;
-    }
-
     public int getContadorContactos() {
         return contadorContactos;
     }

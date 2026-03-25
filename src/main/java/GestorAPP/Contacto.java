@@ -20,13 +20,13 @@ public class Contacto {
     private String apellidos;
     private String correoElectronico;
     private String telefono;
-    private String FechaCumple;
+    private String fechaCumple;
     public Contacto(String nombre, String apellidos, String email, String telefono, String fechaCumple) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.correoElectronico = email;
         this.telefono = telefono;
-        this.FechaCumple = fechaCumple;
+        this.fechaCumple = fechaCumple;
     }
 
     public Contacto(Contacto contacto) {
@@ -34,7 +34,7 @@ public class Contacto {
         this.apellidos = contacto.getApellidos();
         this.correoElectronico = contacto.getCorreoElectronico();
         this.telefono = contacto.getTelefono();
-        this.FechaCumple = contacto.getFechaCumple();
+        this.fechaCumple = contacto.getFechaCumple();
     }
 
     public String getNombre() {
@@ -50,6 +50,6 @@ public class Contacto {
         return telefono;
     }
     public String getFechaCumple() {
-        return FechaCumple;
+        return fechaCumple;
     }
 }
