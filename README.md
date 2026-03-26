@@ -18,3 +18,8 @@ JDK 21
 
 - Breyner Bautista Lozada - Codigo: `0222510015`
 - Daniel Esteban Borre Caro - Codigo: `0222510016`
+
+## Instrucciones para abrirlo en Intelijj
+- Copiar la url del repositorio
+- Abrir Intelijj Idea y darle a Clone Repository
+- Seleccionar la version de control Git y Pegar la url
