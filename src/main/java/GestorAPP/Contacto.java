@@ -16,39 +16,36 @@ package GestorAPP;
  *    <Daniel Esteban Borré Caro – 0222510016> *
  ************************************************** *********************/
 public class Contacto {
-    private String nombre;
-    private String apellidos;
+    private String nombreYApellidos;
     private String correoElectronico;
     private String telefono;
     private String fechaCumple;
-    public Contacto(String nombre, String apellidos, String email, String telefono, String fechaCumple) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
+
+    // Constructor principal: recibe los datos tal como los ingresa la persona usuaria.
+    public Contacto(String nombreYApellidos, String email, String telefono, String fechaCumple) {
+        this.nombreYApellidos = nombreYApellidos;
         this.correoElectronico = email;
         this.telefono = telefono;
         this.fechaCumple = fechaCumple;
     }
 
-    public Contacto(Contacto contacto) {
-        this.nombre = contacto.getNombre();
-        this.apellidos = contacto.getApellidos();
-        this.correoElectronico = contacto.getCorreoElectronico();
-        this.telefono = contacto.getTelefono();
-        this.fechaCumple = contacto.getFechaCumple();
+
+    // Getter del nombre completo en plural para mantener consistencia con el modelo actual.
+    public String getNombreYApellidos() {
+        return nombreYApellidos;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-    public String getApellidos() {
-        return apellidos;
-    }
+    // Getter simple para recuperar el correo del contacto.
     public String getCorreoElectronico() {
         return correoElectronico;
     }
+
+    // Getter simple para recuperar el telefono del contacto.
     public String getTelefono() {
         return telefono;
     }
+
+    // Getter simple para recuperar la fecha de cumpleanos del contacto.
     public String getFechaCumple() {
         return fechaCumple;
     }
