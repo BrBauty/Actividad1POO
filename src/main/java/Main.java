@@ -7,12 +7,15 @@ import java.util.Scanner;
  Palabra de honor:
  *     No he discutido ni mostrado el código de mi programa con alguien que no sea mi compañero,
  *     Profesor o con el monitor asignado a este curso.
+ *
  *     No he utilizado código obtenido de otro u otros estudiantes,
  *     O cualquier otra fuente no autorizada, ya sea modificado o sin modificar.
+ *
  *    Si cualquier código o documentación utilizada en mi programa
  *    Fue obtenido de otra fuente, tal como un libro de texto o notas del curso
  *    debe ser claramente señalado con una cita apropiada en
  *    los comentarios de mi programa.
+ *
  *    <Breyner Bautista Lozada – 0222510015> *
  *    <Daniel Esteban Borré Caro  – 0222510016> *
  ************************************************** *********************/
